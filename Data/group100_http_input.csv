@@ -1,0 +1,21 @@
+﻿msg_id,app_protocol,src_app,dst_app,message,timestamp
+1,HTTP,chrome_browser,web_server,GET /index.html,0.1
+2,HTTP,web_server,chrome_browser,200 OK (HTML Content),0.15
+3,HTTP,chrome_browser,web_server,GET /styles/main.css,0.2
+4,HTTP,web_server,chrome_browser,200 OK (CSS Content),0.25
+5,HTTP,chrome_browser,web_server,GET /js/app.js,0.3
+6,HTTP,web_server,chrome_browser,200 OK (JavaScript),0.35
+7,HTTP,chrome_browser,web_server,GET /images/logo.png,0.4
+8,HTTP,web_server,chrome_browser,200 OK (PNG Image),0.45
+9,HTTP,chrome_browser,web_server,GET /images/banner.jpg,0.5
+10,HTTP,web_server,chrome_browser,200 OK (JPG Image),0.55
+11,HTTP,chrome_browser,web_server,GET /images/old_icon.ico,0.6
+12,HTTP,web_server,chrome_browser,404 Not Found,0.65
+13,HTTP,chrome_browser,web_server,GET /fonts/roboto-bold.woff2,0.7
+14,HTTP,web_server,chrome_browser,200 OK (Font File),0.75
+15,HTTP,chrome_browser,web_server,GET /search?q=network+course,0.8
+16,HTTP,web_server,chrome_browser,200 OK (Search Results),0.85
+17,HTTP,chrome_browser,web_server,GET /api/user_status,0.9
+18,HTTP,web_server,chrome_browser,200 OK (JSON Data: Active),0.95
+19,HTTP,chrome_browser,web_server,POST /signup user=new_student,1
+20,HTTP,web_server,chrome_browser,201 Created (User Registered),1.05
