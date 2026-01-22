@@ -24,7 +24,7 @@ This project is a real-time messaging application based on the **Client-Server m
 📁 **Data/**: Contains the `group100_http_input.csv` used for testing initial data flow.
 📁 **Docs/**: Final project report. 
 You can download the full final report here:
-[Download Final Report](./Docs/דוח%20מסכם%20-%20פרויקט%20גמר%20ברשתות%20תקשורת%20מחשבים.pdf)
+[Download Final Report](./Docs/דוח%20מסכם%20-%20פרויקט%20%20גמר%20ברשתות%20תקשורת%20מחשבים.pdf)
 
 ## How to Run
 1. **Start the Server:** Execute `python Code/Server.py`. The server listens on `0.0.0.0:10000`.
